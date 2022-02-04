@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("header-bg.png");
+}
+.about{
+    width: 40%;
+    margin-left: 145px;
+}
+.about h1{
+    color: #ED537F;
+    margin-top: 5px;
+}
+.about p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+ .btn{
+    color: #fff;
+    background: #ED537F;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+.images{
+    width: 40%;
+}
+.images img{
+    max-width: 100%;
+}
+/*DREAM*/
+#biography{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("header-bg.png");
+}
+.images{
+    width: 40%;
+}
+.images img{
+    max-width: 100%;
+}
+.bio{
+    width: 40%;
+}
+.bio h2{
+    margin-bottom: 20px;
+}
+.bio p{
+    margin-bottom: 25px;
+}
+/*Work*/
+#work{
+    margin-top: 180px;
+}
+#work h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#work .images{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#work .images img{
+    max-width: 80%;
+    margin-left: 5px;
+}
+/*Client*/
+#client{
+    margin-top: 200px;
+    text-align: center;
+}
+#client .opinion{
+    margin-top: 100px;
+}
+#client .opinion h5{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#client .opinion span{
+    color:#9B8F8F;
+    margin-bottom: 20px;
+    display: block;
+}
+#client .opinion p{
+    width: 425px;
+    position: relative;
+    left: 462px;
+}
+.opinion .btn{
+    display: inline-block;
+    margin-top:30px;
+    color: #fff;
+    font-weight: bolder;
+    font-weight: 40px;
+    padding: 12px 81px;
+    border-radius: 3px;
+}
+#client .opinion span{
+    color:#9f8e8e;;
+    margin-bottom: 20px;
+    display: block;
+}
+#footer{
+    margin-top: 300px;
+    text-align: center;
+    color:#9f8e8e;;
+    margin-bottom: 20px;
+}
+
